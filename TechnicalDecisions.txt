@@ -1,0 +1,12 @@
+As an architecture, I applied the MVVM with coordinator pattern, along with the Clean Architecture approach. 
+With Clean Architecture, I completely separated the layers (such as Presentation, Domain, and Data) from each other. 
+The MVVM pattern was chosen for its simplicity, testability, ease of use, and widespread adoption in iOS development. This makes it easier for newcomers to onboard.
+
+To improve testability and prepare for modularization, a simple DI container was also implemented.
+
+For the search algorithm, a dijxstra was used. 
+
+Async/await was used for the data parser mechanism to move the logic out of the main thread. 
+
+(TODO) Handle error case 
+(TODO) cache graphs to not create new one each time and decrease time complexity.
