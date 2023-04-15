@@ -8,7 +8,11 @@
 import Foundation
 import CoreLocation
 
-struct Flight: Decodable {
+struct Flight: Decodable, Equatable {
+    static func == (lhs: Flight, rhs: Flight) -> Bool {
+        lhs.from == rhs.from && lhs.to == rhs.to && lhs.price == rhs.price
+    }
+    
 
     let coordinates: Coordinates
     var from: String
@@ -20,8 +24,13 @@ struct Flight: Decodable {
     }
 
     struct Coordinates: Decodable {
-        private let from: Location
-        private let to: Location
+        struct Location: Decodable {
+            let lat: Double
+            let long: Double
+        }
+
+        let from: Location
+        let to: Location
         
         var fromCoordinate: CLLocationCoordinate2D {
             CLLocationCoordinate2D(latitude: from.lat, longitude: from.long)
@@ -30,11 +39,6 @@ struct Flight: Decodable {
         var toCoordinate: CLLocationCoordinate2D {
             CLLocationCoordinate2D(latitude: to.lat, longitude: to.long)
         }
-    }
-
-    private struct Location: Decodable {
-        let lat: Double
-        let long: Double
     }
 }
 
