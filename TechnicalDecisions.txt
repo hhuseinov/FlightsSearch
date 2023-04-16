@@ -10,3 +10,4 @@ Async/await was used for the data parser mechanism to move the logic out of the 
 
 (TODO) Handle error case 
 (TODO) cache graphs to not create new one each time and decrease time complexity.
+(TODO) add autofill to textfields.
