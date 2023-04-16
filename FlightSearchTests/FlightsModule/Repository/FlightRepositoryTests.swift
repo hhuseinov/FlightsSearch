@@ -9,9 +9,9 @@ import XCTest
 @testable import FlightSearch
 import CoreLocation
 
-class DefaultFlightRepositoryTests: XCTestCase {
+final class DefaultFlightRepositoryTests: XCTestCase {
 
-    func testGetFlightsListSuccess() async {
+    func testGetFlightsList_Success() async {
         // given
         let bundle = Bundle(for: type(of: self))
         guard let path = bundle.path(forResource: "correct", ofType: "json") else {
@@ -63,7 +63,7 @@ class DefaultFlightRepositoryTests: XCTestCase {
         }
     }
 
-    func testGetFlightsListDecodeError() async {
+    func testGetFlightsList_DecodeError() async {
         // given
         let bundle = Bundle(for: type(of: self))
         guard let path = bundle.path(forResource: "decodeError", ofType: "json") else {

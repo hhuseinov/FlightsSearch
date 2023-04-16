@@ -10,7 +10,7 @@
 		F50E7B8829E9C04A00EDA988 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50E7B8729E9C04A00EDA988 /* Route.swift */; };
 		F50E7B8A29E9D6E200EDA988 /* Flights.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50E7B8929E9D6E200EDA988 /* Flights.storyboard */; };
 		F50E7BAE29E9DD8000EDA988 /* SearchEngine+Flights.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50E7BAD29E9DD8000EDA988 /* SearchEngine+Flights.swift */; };
-		F50E7BB629EB31B200EDA988 /* FlightSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50E7BB529EB31B200EDA988 /* FlightSearchTests.swift */; };
+		F50E7BB629EB31B200EDA988 /* FlightSearchEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50E7BB529EB31B200EDA988 /* FlightSearchEngineTests.swift */; };
 		F50E7BBF29EB364200EDA988 /* FlightsSearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50E7BBE29EB364200EDA988 /* FlightsSearchViewModelTests.swift */; };
 		F50E7BC329EB38E200EDA988 /* FlightSearchUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50E7BC229EB38E200EDA988 /* FlightSearchUseCaseTests.swift */; };
 		F50E7BC629EB3CB400EDA988 /* FlightRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50E7BC529EB3CB400EDA988 /* FlightRepositoryTests.swift */; };
@@ -58,7 +58,7 @@
 		F50E7BA829E9DA3B00EDA988 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F50E7BAD29E9DD8000EDA988 /* SearchEngine+Flights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchEngine+Flights.swift"; sourceTree = "<group>"; };
 		F50E7BB329EB31B200EDA988 /* FlightSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F50E7BB529EB31B200EDA988 /* FlightSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchTests.swift; sourceTree = "<group>"; };
+		F50E7BB529EB31B200EDA988 /* FlightSearchEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchEngineTests.swift; sourceTree = "<group>"; };
 		F50E7BBE29EB364200EDA988 /* FlightsSearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsSearchViewModelTests.swift; sourceTree = "<group>"; };
 		F50E7BC229EB38E200EDA988 /* FlightSearchUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchUseCaseTests.swift; sourceTree = "<group>"; };
 		F50E7BC529EB3CB400EDA988 /* FlightRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRepositoryTests.swift; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		F50E7BB429EB31B200EDA988 /* FlightSearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				F50E7BB529EB31B200EDA988 /* FlightSearchTests.swift */,
+				F50E7BB529EB31B200EDA988 /* FlightSearchEngineTests.swift */,
 				F50E7BBC29EB361400EDA988 /* FlightsModule */,
 			);
 			path = FlightSearchTests;
@@ -455,7 +455,7 @@
 			files = (
 				F50E7BC329EB38E200EDA988 /* FlightSearchUseCaseTests.swift in Sources */,
 				F50E7BBF29EB364200EDA988 /* FlightsSearchViewModelTests.swift in Sources */,
-				F50E7BB629EB31B200EDA988 /* FlightSearchTests.swift in Sources */,
+				F50E7BB629EB31B200EDA988 /* FlightSearchEngineTests.swift in Sources */,
 				F50E7BC629EB3CB400EDA988 /* FlightRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

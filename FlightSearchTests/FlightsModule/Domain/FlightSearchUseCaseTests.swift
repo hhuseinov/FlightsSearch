@@ -8,7 +8,7 @@
 import XCTest
 @testable import FlightSearch
 
-class FlightSearchUseCaseTests: XCTestCase {
+final class FlightSearchUseCaseTests: XCTestCase {
     
     // MARK: - Mocks
     
@@ -79,7 +79,7 @@ class FlightSearchUseCaseTests: XCTestCase {
     func testFindCheapestRoute_Failure_CallsFlightsSearchEngine() {
         // Given
         let mockFlightsSearchEngine = MockFlightsSearchEngine()
-        mockFlightsSearchEngine.findCheapestRouteResult = nil // Set failure result in mock
+        mockFlightsSearchEngine.findCheapestRouteResult = nil 
         let sut = DefaultFlightSearchUseCase(flightRepository: MockFlightRepository(), searchEngine: mockFlightsSearchEngine)
         
         // When

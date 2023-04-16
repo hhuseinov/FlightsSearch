@@ -402,5 +402,117 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38697383-9131-457E-BE96-9A4F87790B1A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlightSearch/FlightsModule/Presentation/FlightsSearch/ViewModel/FlightsSearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "searchEdgeCasesValidated(from:to:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F85E707-8E2A-4A92-A4BA-60FC44039C4D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlightSearch/FlightsModule/Presentation/FlightsSearch/ViewModel/FlightsSearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "searchEdgeCasesValidated(from:to:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE48007F-2587-4AA5-9C25-2634CADBC679"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlightSearch/FlightsModule/Presentation/FlightsSearch/ViewModel/FlightsSearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "searchEdgeCasesValidated(from:to:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92825DAC-6BB7-46BB-A4E3-1FA3AA0F7BD5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlightSearch/FlightsModule/Presentation/FlightsSearch/ViewModel/FlightsSearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "didSearch(from:to:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "92825DAC-6BB7-46BB-A4E3-1FA3AA0F7BD5 - 82b9f281137e7f81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlightSearch.FlightsSearchViewModel.didSearch(from: Swift.Optional&lt;Swift.String&gt;, to: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "FlightSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huseinau/Documents/GitHub/FlightSearch/FlightsSearch/FlightSearch/FlightsModule/Presentation/FlightsSearch/ViewModel/FlightsSearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1526">
+               </Location>
+               <Location
+                  uuid = "92825DAC-6BB7-46BB-A4E3-1FA3AA0F7BD5 - 82b9f281137e7f81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FlightSearch.FlightsSearchViewModel.didSearch(from: Swift.Optional&lt;Swift.String&gt;, to: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "FlightSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huseinau/Documents/GitHub/FlightSearch/FlightsSearch/FlightSearch/FlightsModule/Presentation/FlightsSearch/ViewModel/FlightsSearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1534">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECCA67AF-3C36-46DF-9E2F-1A48CA2FD6CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FlightSearch/FlightsModule/Presentation/FlightsSearch/ViewModel/FlightsSearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

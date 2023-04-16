@@ -20,9 +20,9 @@ final class FlightsSearchViewModel: FlightsSearchViewModelCoordination {
         self.flightSearchUseCase = flightSearchUseCase
     }
 
-    // MARK: Private properties
-    private var allFlights: [Flight] = []
-    private var route: Route?
+    // MARK: Properties
+    var allFlights: [Flight] = []
+    var route: Route?
 
 }
 
@@ -37,7 +37,7 @@ extension FlightsSearchViewModel: FlightsSearchViewModelPresentation {
             presentationDelegate?.routeDidNotFound()
             return
         }
-        guard searchEdgeCasesValidated(from: from, to: from) else {
+        guard searchEdgeCasesValidated(from: from, to: to) else {
             return
         }
         if let route = flightSearchUseCase.findCheapestRoute(from: from, to: to, flights: allFlights) {
